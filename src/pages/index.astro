@@ -1,9 +1,11 @@
 ---
-import Layout from "../layouts/Layout.astro";
+const { name, label } = basics;
+import { basics } from "data.json";
 import Hero from "@/sections/Hero.astro";
+import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Ignacio Jesús Revainera | Portfolio Minimalista">
+<Layout title=`Portfolio de ${name} | ${label}`>
 	<main>
 		<Hero />
 	</main>
