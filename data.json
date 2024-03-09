@@ -1,0 +1,215 @@
+{
+	"basics": {
+		"name": "Ignacio Jesús Revainera",
+		"label": "Desarrollador Web con más de 2 años dándole máxima prioridad a la accesibilidad, rendimiento y diseño de sus proyectos",
+		"email": "ignacio.revainera@hotmail.com",
+		"phone": "(+54) 9 11 6484-4946",
+		"url": null,
+		"summary": "Con más de 2 años de experiencia como Desarrollador Front-End, estoy enfocado en optimizar el rendimiento y la accesibilidad, garantizando diseños intuitivos para una experiencia de usuario excepcional. Actualmente, complemento mis habilidades técnicas con estudios en Sistemas, profundizando en programación en C y arquitectura de computadoras, lo que enriquece mi comprensión del desarrollo de software. Me caracterizo por mi capacidad para trabajar eficazmente en equipo, aportando soluciones creativas y manteniendo un enfoque en la mejora continua.",
+		"location": {
+			"address": "",
+			"postalCode": "1832",
+			"city": "Buenos Aires",
+			"countryCode": "AR",
+			"region": "Argentina"
+		},
+		"profiles": [
+			{
+				"network": "LinkedIn",
+				"username": "ignaciorevainera",
+				"url": "https://linkedin.com/in/ignaciorevainera"
+			},
+			{
+				"network": "Github",
+				"username": "ignaciorevainera",
+				"url": "https://github.com/ignaciorevainera"
+			}
+		]
+	},
+	"work": [
+		{
+			"name": "CASA RAMI S.R.L.",
+			"position": "Administrativo",
+			"url": "https://twitch.tv/midudev",
+			"startDate": "04-02-2022",
+			"endDate": "01-06-2023",
+			"summary": [
+				"Gestión, actualización y revisión de archivos y documentos administrativos utilizando Excel, asegurando así la eficiencia y precisión de la información.",
+				"Supervisión rigurosa de los niveles de inventario para garantizar un suministro eficaz de los productos, evitando la escasez y optimizando el uso de los recursos.",
+				"Participación activa en la preparación y empaque de pedidos, garantizando la correcta identificación, clasificación y organización de los productos para facilitar la distribución y el despacho.",
+				"Verificación exhaustiva de los pedidos para garantizar la exactitud según las solicitudes y la calidad del producto antes del envío, lo que resultó en una disminución de errores y un incremento en la satisfacción del cliente."
+			],
+			"highlights": [
+				"Office",
+				"Comunicación efectiva",
+				"Gestión del tiempo"
+			]
+		}
+	],
+	"volunteer": [{}],
+	"education": [
+		{
+			"institution": "Universidad Nacional de Lanús",
+			"area": "Licenciatura en Sistemas",
+			"startDate": "01-02-2022",
+			"endDate": null,
+			"summary": "Durante mi carrera universitaria, he consolidado mis habilidades en programación en C, abarcando desde estructuras de control hasta estructuras de datos avanzadas, y en Arquitectura de Computadoras, profundizando en lenguaje ensamblador y sistemas avanzados. También, he desarrollado competencias en la resolución de problemas y diseño de algoritmos, preparándome para aplicar estos conocimientos en desafíos tecnológicos complejos.",
+			"highlights": [
+				"C",
+				"Office",
+				"Algoritmos",
+				"Arquitectura en computadoras"
+			]
+		}
+	],
+	"awards": [{}],
+	"certificates": [{}],
+	"publications": [{}],
+	"skills": [
+		{
+			"name": "HTML",
+			"keywords": [
+				"Lenguaje de Marcado",
+				"Estructura Web",
+				"Frontend",
+				"Desarrollo Web"
+			]
+		},
+		{
+			"name": "CSS",
+			"keywords": [
+				"Estilo",
+				"Frontend",
+				"Diseño Web",
+				"Diseño Responsivo"
+			]
+		},
+		{
+			"name": "JavaScript",
+			"keywords": [
+				"Programación",
+				"Frontend",
+				"Backend",
+				"Desarrollo Web"
+			]
+		},
+		{
+			"name": "Tailwind",
+			"keywords": [
+				"Framework CSS",
+				"Frontend",
+				"Diseño Responsivo",
+				"Desarrollo Web"
+			]
+		},
+		{
+			"name": "Astro",
+			"keywords": [
+				"Generador de Sitios Estáticos",
+				"Frontend",
+				"Backend",
+				"Desarrollo Web"
+			]
+		},
+		{
+			"name": "Bootstrap",
+			"keywords": [
+				"Framework CSS",
+				"Frontend",
+				"Diseño Responsivo",
+				"Componentes Web"
+			]
+		},
+		{
+			"name": "Git",
+			"keywords": [
+				"Control de Versiones",
+				"Desarrollo de Software",
+				"Línea de Comandos",
+				"Colaboración"
+			]
+		},
+		{
+			"name": "GitHub",
+			"keywords": [
+				"Control de Versiones",
+				"Repositorio de Código",
+				"Colaboración",
+				"Hospedaje Git"
+			]
+		},
+		{
+			"name": "Python",
+			"keywords": [
+				"Programación",
+				"Backend",
+				"Ciencia de Datos",
+				"Desarrollo Web"
+			]
+		},
+		{
+			"name": "Excel",
+			"keywords": [
+				"Análisis de Datos",
+				"Hojas de Cálculo",
+				"Gestión de Datos",
+				"Microsoft Office"
+			]
+		},
+		{
+			"name": "Word",
+			"keywords": [
+				"Creación de Documentos",
+				"Formato de Texto",
+				"Microsoft Office",
+				"Procesamiento de Textos"
+			]
+		},
+		{
+			"name": "PowerPoint",
+			"keywords": [
+				"Presentaciones",
+				"Diseño de Diapositivas",
+				"Microsoft Office",
+				"Comunicación Visual"
+			]
+		},
+		{
+			"name": "C",
+			"keywords": [
+				"Programación",
+				"Programación de Sistemas",
+				"Desarrollo de Software",
+				"Rendimiento"
+			]
+		}
+	],
+	"languages": [
+		{
+			"language": "Español",
+			"fluency": "Nativo"
+		},
+		{
+			"language": "Inglés",
+			"fluency": "Intermedio"
+		}
+	],
+	"interests": [{}],
+	"references": [{}],
+	"projects": [
+		{
+			"name": "Portfolio",
+			"isActive": true,
+			"description": "Descubre un portfolio vibrante: proyectos innovadores y habilidades técnicas presentados con elegancia mediante HTML, Tailwind CSS, y JavaScript, todo potenciado por la velocidad de Astro.",
+			"highlights": ["Responsive", "Moderno", "Modo Oscuro"],
+			"url": "https://ignaciorevainera.github.io/portfolio/"
+		},
+		{
+			"name": "Luxury",
+			"isActive": false,
+			"description": "Este proyecto es una página web desarrollada con HTML, CSS, Bootstrap y JavaScript para simular el sitio web de una concesionaria de autos de lujo.",
+			"highlights": ["Responsive", "Minimalista", "Gran accesibilidad"],
+			"url": "https://ignaciorevainera.github.io/concesionariaLuxury/"
+		}
+	]
+}
