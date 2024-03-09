@@ -1,6 +1,7 @@
 ---
 const { name, label } = basics;
 import { basics } from "data.json";
+import About from "@/sections/About.astro";
 import Hero from "@/sections/Hero.astro";
 import Layout from "../layouts/Layout.astro";
 ---
@@ -8,5 +9,6 @@ import Layout from "../layouts/Layout.astro";
 <Layout title=`Portfolio de ${name} | ${label}`>
 	<main class="mx-auto w-full max-w-4xl p-8 md:p-16">
 		<Hero />
+		<About />
 	</main>
 </Layout>
