@@ -202,14 +202,14 @@
 			"isActive": true,
 			"description": "Descubre un portfolio vibrante: proyectos innovadores y habilidades técnicas presentados con elegancia mediante HTML, Tailwind CSS, y JavaScript, todo potenciado por la velocidad de Astro.",
 			"highlights": ["Responsive", "Moderno", "Modo Oscuro"],
-			"url": "https://ignaciorevainera.github.io/portfolio/"
+			"url": "https://portfolio-ten-mu-97.vercel.app/"
 		},
 		{
 			"name": "Luxury",
 			"isActive": false,
 			"description": "Este proyecto es una página web desarrollada con HTML, CSS, Bootstrap y JavaScript para simular el sitio web de una concesionaria de autos de lujo.",
 			"highlights": ["Responsive", "Minimalista", "Gran accesibilidad"],
-			"url": "https://ignaciorevainera.github.io/concesionariaLuxury/"
+			"url": "https://ignaciorevainera.github.io/concesionaria-luxury/"
 		}
 	]
 }
