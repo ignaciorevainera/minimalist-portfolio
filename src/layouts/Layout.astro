@@ -38,10 +38,36 @@ import KeyboardManager from "@/KeyboardManager.astro";
 
 	html {
 		font-family: "Cascadia Code", "Courier New", Courier, monospace;
-		background-color: white;
+		@apply bg-white;
 	}
 
 	.text-responsive {
 		@apply text-sm sm:text-base;
+	}
+
+	.tag {
+		@apply rounded border bg-gray-300 px-2 py-1 text-sm font-semibold;
+	}
+
+	.print {
+		@apply hidden;
+	}
+
+	@media print {
+		.no-print {
+			@apply hidden;
+		}
+
+		.print {
+			@apply block;
+		}
+
+		.text-responsive {
+			@apply text-sm;
+		}
+
+		.section-print {
+			@apply mb-9;
+		}
 	}
 </style>
