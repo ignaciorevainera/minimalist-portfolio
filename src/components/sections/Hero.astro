@@ -99,23 +99,7 @@ const printInfo = [email, phone, LinkedIn_URL, Github_URL]
 			src={Ignacio}
 			formats={["avif", "webp"]}
 			alt={name}
-			class="aspect-square w-96 rounded-lg object-cover"
+			class="aspect-square w-48 rounded-lg object-cover sm:w-96"
 		/>
 	</div>
 </Section>
-
-<style is:global>
-	.print {
-		display: none;
-	}
-
-	@media print {
-		.no-print {
-			display: none;
-		}
-
-		.print {
-			display: block;
-		}
-	}
-</style>
