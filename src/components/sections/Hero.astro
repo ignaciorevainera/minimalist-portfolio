@@ -19,30 +19,36 @@ const SOCIAL_ICONS: Record<string, any> = {
 const LinkedIn_INFO = profiles.find(({ network }) => network === "LinkedIn");
 const LinkedIn_URL = LinkedIn_INFO?.url;
 
-const printInfo = [email, phone, LinkedIn_URL].filter(Boolean).join(" • ");
+const Github_INFO = profiles.find(({ network }) => network === "Github");
+const Github_URL = Github_INFO?.url;
+
+const printInfo = [email, phone, LinkedIn_URL, Github_URL]
+	.filter(Boolean)
+	.join(" • ");
 ---
 
 <Section>
-	<div
-		class="flex flex-col items-center justify-between gap-y-6 sm:flex-row sm:gap-0"
-	>
-		<div
-			class="flex w-full flex-col items-center justify-center gap-y-4 pr-1 sm:items-start"
-		>
+	<div class="flex flex-col items-center gap-6 sm:flex-row sm:gap-0">
+		<header class="flex w-full flex-col gap-4 text-center sm:text-left">
 			<h1 class="text-3xl font-bold">{name}</h1>
-			<h2 class="text-pretty text-lg font-bold opacity-70">{label}</h2>
+			<h2 class="text-pretty text-xs font-bold opacity-70 sm:text-base">
+				{label}
+			</h2>
 			<span
-				class="w-full rounded border-2 border-gray-300 p-2 text-center sm:w-max sm:text-start sm:text-sm"
+				class="max-w-fit self-center rounded border-2 border-gray-300 p-2 text-center text-xs sm:self-auto"
 			>
 				{city}, {region}
 			</span>
+			<ul class="print space-y-2 text-xs text-gray-500">
+				{
+					printInfo.split(" • ").map((info) => {
+						const modifiedInfo = info.replace("https://", "");
+						return <li>{modifiedInfo}</li>;
+					})
+				}
+			</ul>
 			<footer
-				class="print flex flex-row items-center gap-x-8 text-xs text-gray-500"
-			>
-				{printInfo}
-			</footer>
-			<footer
-				class="no-print group flex w-full flex-row items-center justify-between gap-x-4 *:flex *:text-gray-500 sm:w-max sm:justify-start"
+				class="no-print group flex w-full flex-row items-center justify-center gap-x-4 *:flex *:rounded *:border-2 *:border-gray-300 *:p-2 *:text-gray-500 sm:w-max sm:justify-start"
 			>
 				{
 					email && (
@@ -51,7 +57,7 @@ const printInfo = [email, phone, LinkedIn_URL].filter(Boolean).join(" • ");
 							title={`Enviar un correo electrónico a ${name} al correo ${email}`}
 							target="_blank"
 							rel="noopener noreferrer"
-							class="rounded border-2 border-gray-300 p-2 transition-all hover:text-gray-800"
+							class="hover:border-gray-500"
 						>
 							<Mail />
 						</a>
@@ -64,7 +70,7 @@ const printInfo = [email, phone, LinkedIn_URL].filter(Boolean).join(" • ");
 							title={`Llamar por teléfono a ${name} al número ${phone}`}
 							target="_blank"
 							rel="noopener noreferrer"
-							class="rounded border-2 border-gray-300 p-2 transition-all hover:text-gray-800"
+							class="hover:border-gray-500"
 						>
 							<Phone />
 						</a>
@@ -80,7 +86,7 @@ const printInfo = [email, phone, LinkedIn_URL].filter(Boolean).join(" • ");
 								title={`Visitar el perfil de ${name} en ${network}`}
 								target="_blank"
 								rel="noopener noreferrer"
-								class="rounded border-2 border-gray-300 p-2 transition-all hover:text-gray-800"
+								class="hover:border-gray-500"
 							>
 								<Icon />
 							</a>
@@ -88,7 +94,7 @@ const printInfo = [email, phone, LinkedIn_URL].filter(Boolean).join(" • ");
 					})
 				}
 			</footer>
-		</div>
+		</header>
 		<Picture
 			src={Ignacio}
 			formats={["avif", "webp"]}
