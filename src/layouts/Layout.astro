@@ -2,8 +2,8 @@
 interface Props {
 	title: string;
 }
-
 const { title } = Astro.props;
+import KeyboardManager from "@/KeyboardManager.astro";
 ---
 
 <!doctype html>
@@ -27,6 +27,7 @@ const { title } = Astro.props;
 	</head>
 	<body>
 		<slot />
+		<KeyboardManager />
 	</body>
 </html>
 
