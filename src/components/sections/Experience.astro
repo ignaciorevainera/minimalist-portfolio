@@ -1,0 +1,63 @@
+---
+import { work } from "data.json";
+import Section from "@/Section.astro";
+---
+
+<Section title="Experiencia">
+	<ul class="flex flex-col gap-y-8">
+		{
+			work.map(
+				({
+					name,
+					startDate,
+					endDate,
+					position,
+					summary,
+					highlights,
+				}) => {
+					const startYear = new Date(startDate).getFullYear();
+					const endYear =
+						endDate != null
+							? new Date(endDate).getFullYear()
+							: "Actual";
+					const years = `${startYear} - ${endYear}`;
+					return (
+						<li>
+							<article>
+								<header class="flex flex-col items-start justify-between sm:flex-row">
+									<div>
+										<h3 class="text-xl font-semibold">
+											{position}
+										</h3>
+										<h4 class="font-base text-base">
+											{name}
+										</h4>
+									</div>
+									<time class="opacity-70">{years}</time>
+								</header>
+								<main class="my-4 text-sm sm:text-base">
+									<ul class="list-disc space-y-4 pl-8">
+										{summary.map((items) => (
+											<li>{items}</li>
+										))}
+									</ul>
+								</main>
+								<footer>
+									<ul class="inline-flex flex-wrap gap-2">
+										{highlights.map((highlight) => {
+											return (
+												<span class="rounded bg-gray-300 px-2 py-1 text-xs font-semibold text-gray-700">
+													{highlight}
+												</span>
+											);
+										})}
+									</ul>
+								</footer>
+							</article>
+						</li>
+					);
+				},
+			)
+		}
+	</ul>
+</Section>
