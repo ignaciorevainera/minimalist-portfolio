@@ -2,9 +2,9 @@
 
 Bienvenido a mi portfolio minimalista, un espacio donde la simplicidad y la funcionalidad se encuentran para destacar proyectos y habilidades técnicas. En un mundo saturado de información y estímulos visuales, opté por un enfoque minimalista. Creo firmemente que menos es más, y este principio guía no solo el diseño visual sino también la estructura y las funcionalidades del sitio. Este enfoque permite a los visitantes centrarse en lo más importante: los proyectos y las habilidades que deseo presentar.
 
-![348shots_so](https://github.com/ignaciorevainera/minimalist-portfolio/assets/137783616/1ce2234d-1792-452f-97ba-24dbd7bc49fc)
-![169shots_so](https://github.com/ignaciorevainera/minimalist-portfolio/assets/137783616/19ba4418-ab01-4f59-ae0c-ad7932551f56)
-
+![377shots_so](https://github.com/ignaciorevainera/minimalist-portfolio/assets/137783616/c8c503ac-a29f-4ff0-9e7e-8ddd95af9069)
+![254shots_so](https://github.com/ignaciorevainera/minimalist-portfolio/assets/137783616/2817a5b5-21a7-4049-8f0f-2dfe399fb274)
+![256shots_so](https://github.com/ignaciorevainera/minimalist-portfolio/assets/137783616/939fea62-40b6-4ddd-91c0-775d704e5ec0)
 
 ## ✨ Características
 
